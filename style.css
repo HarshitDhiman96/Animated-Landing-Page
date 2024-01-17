@@ -1,0 +1,160 @@
+@font-face {
+    font-family: myfont;
+    src: url("Kajiro\ Bold.ttf");
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+}
+
+#back {
+    height: 100vh;
+    width: 100%;
+}
+
+#top {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#workingarea {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+.nav {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav img {
+    height: 56px;
+}
+
+.nleft {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nleft a {
+    pointer-events: all;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nright a {
+    pointer-events: all;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nright {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero {
+    margin-top: 55px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    transform: translate(0%, -50%);
+    justify-content: space-between;
+    width: 100%;
+}
+
+#heroleft {
+    min-width: 50%;
+}
+
+#heroleft button {
+    font-family: myfont;
+    padding: 1vw 4vw;
+    margin-top: 2vw;
+    font-size: 3vw;
+    pointer-events: all;
+}
+
+#heroright {
+    width: 20%;
+}
+
+#heroleft .elem {
+    height: 9vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1 {
+    line-height: 0.9;
+    color: white;
+    font-size: 11vw;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: myfont;
+}
+
+#heroright p {
+    display: flex;
+    color: #fff;
+    font-size: 0.95vw;
+}
+
+.div {
+    margin-top: 12px;
+    height: 12vw;
+    width: 100%;
+    background-color: rgb(251, 211, 218);
+}
+.div  img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.para1 {
+    font-size: 0.95vw;
+    margin-top: 2vw;
+}
+
+.para2 {
+    font-size: 0.95vw;
+    margin-top: 3vw;
+}
+
+#back img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
